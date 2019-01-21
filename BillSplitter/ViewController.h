@@ -7,8 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Calculate.h"
 
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *totalDisplay;
+@property (weak, nonatomic) IBOutlet UITextField *billInput;
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+@property (weak, nonatomic) IBOutlet UILabel *sliderDisplay;
+
+- (IBAction)sliderAction:(id)sender;
 
 
 @end

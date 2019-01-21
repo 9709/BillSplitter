@@ -15,6 +15,7 @@
 		1780687C21F4427A0075AB17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1780687B21F4427A0075AB17 /* main.m */; };
 		1780688621F4427A0075AB17 /* BillSplitterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1780688521F4427A0075AB17 /* BillSplitterTests.m */; };
 		1780689121F4427A0075AB17 /* BillSplitterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1780689021F4427A0075AB17 /* BillSplitterUITests.m */; };
+		178068A021F543160075AB17 /* Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1780689F21F543160075AB17 /* Calculate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1780688C21F4427A0075AB17 /* BillSplitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillSplitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1780689021F4427A0075AB17 /* BillSplitterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillSplitterUITests.m; sourceTree = "<group>"; };
 		1780689221F4427A0075AB17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1780689E21F543160075AB17 /* Calculate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Calculate.h; sourceTree = "<group>"; };
+		1780689F21F543160075AB17 /* Calculate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Calculate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				1780686F21F442790075AB17 /* ViewController.h */,
 				1780687021F442790075AB17 /* ViewController.m */,
 				1780687221F442790075AB17 /* Main.storyboard */,
+				1780689E21F543160075AB17 /* Calculate.h */,
+				1780689F21F543160075AB17 /* Calculate.m */,
 				1780687521F4427A0075AB17 /* Assets.xcassets */,
 				1780687721F4427A0075AB17 /* LaunchScreen.storyboard */,
 				1780687A21F4427A0075AB17 /* Info.plist */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178068A021F543160075AB17 /* Calculate.m in Sources */,
 				1780687121F442790075AB17 /* ViewController.m in Sources */,
 				1780687C21F4427A0075AB17 /* main.m in Sources */,
 				1780686E21F442790075AB17 /* AppDelegate.m in Sources */,
